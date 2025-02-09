@@ -1,0 +1,10 @@
+### RabbitMQ'ya Müşteri Üretme
+POST http://localhost:5140/produce/3
+Accept: application/json
+Authorization: Bearer <Token>
+
+
+### Giriş Yapan Kulllanıcı Hakkında Detaylı Bilgi
+POST  http://localhost:5140/user/me
+Accept: application/json
+Authorization: Bearer <Token>
